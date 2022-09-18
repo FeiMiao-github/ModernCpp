@@ -1,0 +1,18 @@
+from genericpath import isdir
+import os
+
+Import('env binDir')
+
+src_dirs = [
+    'basic_coroutine1',
+    'basic_coroutine2',
+    'basic_coroutine3',
+    'basic_coroutine4',
+    'co_yield',
+    'co_return',
+    'coroutine_exception',
+    'test'
+]
+
+for d in src_dirs:
+    env.SConscript(dirs=src_dirs, name='SConscript', export='binDir')

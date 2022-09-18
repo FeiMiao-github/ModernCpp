@@ -1,0 +1,7 @@
+Import('env binDir')
+
+src = env.Glob("*.cpp")
+
+dirname = Dir('.').get_tpath().split('/')[-1]
+
+env.Program(target=binDir + '/' + dirname, source=src)

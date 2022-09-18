@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+
+BreakBeforeBraces: Allman
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Left
+
+AlignOperands: Align
+BreakBeforeBinaryOperators: All
+
+BreakBeforeConceptDeclarations: Always
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: AfterComma
+AlwaysBreakTemplateDeclarations: Yes

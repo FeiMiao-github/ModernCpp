@@ -1,0 +1,12 @@
+Import('env binDir')
+
+# src = env.Glob("*.cpp")
+
+src = [
+    'test.cpp',
+    'main.cpp'
+]
+
+objs = []
+
+env.Program(target=binDir + '/basic_coroutine3', source=src)

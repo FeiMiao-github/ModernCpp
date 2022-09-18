@@ -1,0 +1,6 @@
+/.cache
+/.sconsign.dblite
+/bin
+/build
+/compile_commands.json
+/gcm.cache
